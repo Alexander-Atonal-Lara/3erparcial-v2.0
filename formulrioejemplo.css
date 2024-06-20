@@ -1,0 +1,15 @@
+namespace JHAAZ
+
+public partial class Form2: Form
+{
+public Form2()
+{
+ InitializeComponent();
+}
+
+private void buttoncliente_Click(object sender, EventArgs e)
+{
+Form4 cambio = new Form4 ();
+cambio.show();
+}
+}
